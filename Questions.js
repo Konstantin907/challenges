@@ -48,3 +48,7 @@ q1()
 q2()
 q3(arr)
 
+let array=[true,false,false,true,false];
+let trueValues = array.filter(value => value === true);
+console.log(trueValues);
+
